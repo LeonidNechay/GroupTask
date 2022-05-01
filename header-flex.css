@@ -1,0 +1,73 @@
+body{
+    margin:0px;
+    background-color: rgb(246,248,249);
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+.header-image, .header-search, .menu, .icons{
+    height: 75px;
+}
+.header-image-content, .header-search-content{
+    margin: 20px 0px 20px 0px;
+}
+.header-image-content{
+    margin-left: 80%;
+    margin-right: 10%;
+}
+.header-search-content{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.menu-content, .icons-content{
+    font-family: arial;
+    font-size: 17.5px;
+}
+.menu-content{
+    display: flex;
+    margin:26px 8% 23px 8%;
+}
+.icons-content{
+    display: flex;
+    margin:26px 0px 23px 0px;
+}
+.icons-content i{
+    margin-left: 12%;
+    margin-right: 12%;
+}
+.avatar-content{
+    margin-left: 10%;
+    margin-right: 90%;
+}
+.menu-content-animation{
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.icons-content-animation{
+    margin-left: 28px;
+    margin-right: 28px;
+}
+.header-image, .header-search, .icons{
+    flex: 0 1 15%;
+}
+.avatar{
+    flex: 0 1 14%;
+    padding: 15px 0px
+}
+.menu{
+    flex: 0 1 40%;
+}
+.navigation{
+    flex: 0 1 100%;
+}
+.navigation-content{
+    font-family: arial;
+    font-size: 15.3px;
+    margin-left:12.5%;
+    display: flex;
+}
+.navigation-content-element{
+    padding: 13px 17px;
+    margin-right: 15px;
+}

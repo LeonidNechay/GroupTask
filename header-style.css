@@ -1,0 +1,63 @@
+header{
+    background-color: white;
+}
+.header-image, .header-search, .menu, .icons{
+    border-right: 2px solid rgb(242,242,242);
+}
+a{
+    text-decoration: none;
+}
+.h-image{
+    height: 30px;
+    width: 31px;
+}
+input.search{
+    border:0px;
+}
+.header-search-content{
+    width: 80%;
+    border: 2px solid rgb(230,230,230);
+    border-radius: 23px;
+    padding:6px 8px 6px 5px;
+}
+.menu-content a{
+    color:black;
+}
+a.premium{
+    color:rgb(254,124,109);
+}
+.fa-message{
+    color:rgb(43,205,113);
+}
+.fa-bell{
+    color: rgb(241,196,15);
+}
+.fa-user-plus{
+    color:rgb(155,88,182);
+}
+.avatar-image{
+    height: 40px;
+    width: 40px;
+}
+.navigation{
+    border-top: 2px solid rgb(242,242,242);
+    border-bottom: 2px solid rgb(242,242,242);
+}
+.navigation-element {
+    color:rgb(150,150,150);
+}
+.navigation-content-element:hover{
+    border-bottom:2px solid rgb(94,181,230);
+}
+.element-post{
+    border-bottom:2px solid rgb(94,181,230);
+}
+.post{
+    color:black;
+}
+.menu-content-animation:hover{
+    transform : translateY(-3.5px);
+}
+.icons-content-animation:hover{
+    transform : translateY(-3.5px);
+}
